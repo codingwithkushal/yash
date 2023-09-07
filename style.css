@@ -1,0 +1,111 @@
+/* #is for id and . is for class */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /* background-color: chocolate; */
+    background: url(asset/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+  }
+  
+  header {
+    /* background-color: olivedrab; */
+    padding: 1px;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2, h3 {
+    color: #070707;
+  }
+  
+  footer {
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+    text-align: center;
+  }
+  /* * {
+    box-sizing: border-box;
+  } */
+  
+  .column {
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats)
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+  footer {
+    /* background-color: olivedrab; */
+    padding: 20px;
+    text-align: center;
+  }
+ .BlackBold{
+  font-weight: bolder;
+ }
+ .Inline{
+  inline-size: none;
+ }
+.Twitterlogo {
+  background-position: bottom center;
+}
+img{
+  border: solid 2px black;
+  border-radius: 20px;
+}
+.visit:hover {
+  background-color: fuchsia;
+  color: cornflowerblue;
+}
+.btn:hover{
+  background-color: aqua;
+  color: cornflowerblue;
+}
+ul {
+  /* background-color: #070707; */
+  overflow: auto;
+   padding: 3px;
+   margin: auto;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover{
+  color: red;
+}
+.navbar li{
+  float:left;
+  list-style: none; 
+  margin: 13px 20px;
+}
+.search{
+  float: right;
+  color: white;
+  padding: 12px 75px;
+  border: radius 5px;
+}
+.navbar input{
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
