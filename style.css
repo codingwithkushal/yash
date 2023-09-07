@@ -6,7 +6,7 @@ body {
     padding: 0;
     text-align: left;
     /* background-color: chocolate; */
-    background: url(asset/bg2.jpeg);
+    background: url(bg2.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover ;
